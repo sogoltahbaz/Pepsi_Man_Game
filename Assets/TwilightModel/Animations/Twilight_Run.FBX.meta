@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: 8cbdb864f20125e4b885939803d33dbf
+ModelImporter:
+  serializedVersion: 22103
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Twilight_Run(Clone)
+      parentName: 
+      position: {x: -0.025738439, y: 0, z: 0.29447716}
+      rotation: {x: 0.5002655, y: -0.5002654, z: -0.49973437, w: 0.49973443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TwilightCATPelvis
+      parentName: Twilight_Run(Clone)
+      position: {x: -4.376893, y: 0.000092983246, z: 0.09515419}
+      rotation: {x: 0.043088917, y: -7.846617e-10, z: 0.000000077893915, w: 0.9990713}
+      scale: {x: 1, y: 1, z: 1}
+    - name: TwilightCATRLeg1
+      parentName: TwilightCATPelvis
+      position: {x: -0, y: -0.000000048446655, z: 0.24194133}
+      rotation: {x: -0.15568145, y: 0.9873659, z: -0.020616828, w: -0.02113699}
+      scale: {x: 1.0000002, y: 0.99999946, z: 0.99999994}
+    - name: TwilightCATRLeg2
+      parentName: TwilightCATRLeg1
+      position: {x: -1.6155934, y: 0.004865982, z: -0.000033512973}
+      rotation: {x: 0.006488484, y: 0.0063637896, z: 0.34290484, w: 0.9393262}
+      scale: {x: 1.0000031, y: 0.99999756, z: 0.9999998}
+    - name: TwilightCATRLegAnkle
+      parentName: TwilightCATRLeg2
+      position: {x: -2.5085702, y: 0.0000027130127, z: 0.00000092048646}
+      rotation: {x: 0.017439436, y: -0.015489699, z: -0.5041202, w: 0.8633185}
+      scale: {x: 1.0000054, y: 0.9999938, z: 0.99999946}
+    - name: TwilightCATRLegFinger1
+      parentName: TwilightCATRLegAnkle
+      position: {x: -0.6048562, y: -0.0000017440796, z: -0.000000024223327}
+      rotation: {x: 0.107369654, y: -0.0045242826, z: 0.0136026, w: 0.9941158}
+      scale: {x: 1.0000032, y: 0.9999974, z: 0.99999994}
+    - name: TwilightCATLLeg1
+      parentName: TwilightCATPelvis
+      position: {x: -0.0072557586, y: -0.02577379, z: -0.48239642}
+      rotation: {x: -0.117268816, y: 0.99042344, z: -0.07286631, w: -0.000056626133}
+      scale: {x: 1.0000001, y: 0.99999934, z: 0.99999994}
+    - name: TwilightCATLLeg2
+      parentName: TwilightCATLLeg1
+      position: {x: -1.6656239, y: -0.000013565063, z: -0.00000048446657}
+      rotation: {x: -0.006074265, y: 0.00033573882, z: 0.14893347, w: 0.98882854}
+      scale: {x: 0.9999984, y: 1.0000006, z: 1}
+    - name: TwilightCATLLegAnkle
+      parentName: TwilightCATLLeg2
+      position: {x: -2.508567, y: -0.000013565063, z: -0.00000042390823}
+      rotation: {x: 0.0004841116, y: -0.034971662, z: -0.71418566, w: 0.699082}
+      scale: {x: 0.9999984, y: 1.0000008, z: 0.99999994}
+    - name: TwilightCATLLegFinger1
+      parentName: TwilightCATLLegAnkle
+      position: {x: -0.6048401, y: 0.0000052806854, z: 0.00000024223328}
+      rotation: {x: -0.007802611, y: -0.0006899231, z: -0.015031951, w: 0.99985635}
+      scale: {x: 0.9999989, y: 0.9999999, z: 1.0000001}
+    - name: TwilightCATSpine1
+      parentName: TwilightCATPelvis
+      position: {x: -0, y: -0.000000048446655, z: 0.000000006055832}
+      rotation: {x: -0.0036703672, y: 0.0008690589, z: 0.009789608, w: 0.999945}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: TwilightCATSpine2
+      parentName: TwilightCATSpine1
+      position: {x: -0.23237884, y: -0.000000024223327, z: 0.000000009083748}
+      rotation: {x: -0.024631854, y: -0.00027637358, z: -0.03589321, w: 0.999052}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000001}
+    - name: TwilightCATSpine3
+      parentName: TwilightCATSpine2
+      position: {x: -0.27435806, y: -0.000000048446655, z: 0.000000006055832}
+      rotation: {x: -0.037143055, y: -0.0009326052, z: 0.066770606, w: 0.99707633}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000001}
+    - name: TwilightCATSpine4
+      parentName: TwilightCATSpine3
+      position: {x: -0.23009022, y: -0.00000009689331, z: 0.000000006055832}
+      rotation: {x: -0.03703298, y: 0.0029487726, z: 0.018924592, w: 0.9991305}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: TwilightCATSpine5
+      parentName: TwilightCATSpine4
+      position: {x: -0.19490826, y: 0, z: 0.000000012111664}
+      rotation: {x: -0.02448188, y: 0.0032484042, z: -0.062583975, w: 0.9977341}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: TwilightCATChees
+      parentName: TwilightCATSpine5
+      position: {x: -0.23237923, y: -0.000000024223327, z: 0.000000006055832}
+      rotation: {x: -0.0036693546, y: 0.0017523227, z: -0.0104353335, w: 0.9999373}
+      scale: {x: 1, y: 0.99999875, z: 0.9999993}
+    - name: TwilightCATRArmCollarbone
+      parentName: TwilightCATChees
+      position: {x: -0, y: -0.00000008478165, z: 0.12097063}
+      rotation: {x: 0.05856513, y: 0.70467734, z: 0.05856513, w: 0.7046773}
+      scale: {x: 0.99999976, y: 0.99999976, z: 0.99999976}
+    - name: TwilightCATRArm1
+      parentName: TwilightCATRArmCollarbone
+      position: {x: -0.3339556, y: -0.00000008478165, z: -0.00000038757324}
+      rotation: {x: 0.18192363, y: 0.063103355, z: -0.05378823, w: 0.9798105}
+      scale: {x: 0.9999996, y: 0.99999964, z: 0.9999996}
+    - name: TwilightCATRArm21
+      parentName: TwilightCATRArm1
+      position: {x: -0.878575, y: 0.000000048446655, z: -0.00000038757324}
+      rotation: {x: -0.017795293, y: -0.010546881, z: 0.01310438, w: 0.9997002}
+      scale: {x: 0.9999995, y: 0.99999946, z: 1.0000001}
+    - name: TwilightCATRArm22
+      parentName: TwilightCATRArm21
+      position: {x: -0.24226642, y: 0.0000009689331, z: 0}
+      rotation: {x: 0.04330554, y: -0.00000006731499, z: -0.00000000453973, w: 0.9990619}
+      scale: {x: 0.99999964, y: 0.9999996, z: 1}
+    - name: TwilightCATRArm23
+      parentName: TwilightCATRArm22
+      position: {x: -0.24226642, y: 0.00000058135987, z: 0}
+      rotation: {x: 0.08029962, y: -0.000000051387385, z: 0.0000000116144765, w: 0.9967708}
+      scale: {x: 0.99999964, y: 0.99999964, z: 1}
+    - name: TwilightCATRArmPalm
+      parentName: TwilightCATRArm23
+      position: {x: -0.24226622, y: 0.0000006782532, z: -0.00000038757324}
+      rotation: {x: -0.66785973, y: 0.049054664, z: -0.14497411, w: 0.72838145}
+      scale: {x: 0.9999989, y: 0.9999993, z: 1.0000004}
+    - name: TwilightCATRArmThumb1
+      parentName: TwilightCATRArmPalm
+      position: {x: -0.113362655, y: 0.015532385, z: 0.06264007}
+      rotation: {x: 0.1155945, y: 0.22518969, z: -0.24562377, w: 0.93573314}
+      scale: {x: 0.9999973, y: 1.0000032, z: 0.9999977}
+    - name: TwilightCATRArmThumb2
+      parentName: TwilightCATRArmThumb1
+      position: {x: -0.101437606, y: 0.000001550293, z: -0.00000038757324}
+      rotation: {x: -0.024590053, y: -0.0029474776, z: 0.02564842, w: 0.9993642}
+      scale: {x: 0.99998677, y: 1.0000106, z: 0.9999988}
+    - name: TwilightCATRArmThumb3
+      parentName: TwilightCATRArmThumb2
+      position: {x: -0.09886761, y: 0.00000058135987, z: -0.00000019378662}
+      rotation: {x: -0.12306247, y: -0.19293515, z: 0.42191875, w: 0.87727773}
+      scale: {x: 0.9999604, y: 1.0000324, z: 0.99999976}
+    - name: TwilightCATRArmIndex1
+      parentName: TwilightCATRArmPalm
+      position: {x: -0.2894767, y: 0.030208621, z: 0.07769613}
+      rotation: {x: 0.025646763, y: -0.019863417, z: 0.06496409, w: 0.99736017}
+      scale: {x: 0.99999785, y: 0.99999905, z: 1.0000013}
+    - name: TwilightCATRArmIndex2
+      parentName: TwilightCATRArmIndex1
+      position: {x: -0.13717264, y: 0.0000011627197, z: 0.00000048446657}
+      rotation: {x: -0.008834164, y: -0.0013654082, z: 0.025276516, w: 0.9996406}
+      scale: {x: 0.9999955, y: 0.9999984, z: 1.0000029}
+    - name: TwilightCATRArmIndex3
+      parentName: TwilightCATRArmIndex2
+      position: {x: -0.09701772, y: 0, z: 0.00000048446657}
+      rotation: {x: -0.028003963, y: -0.049397867, z: 0.45179567, w: 0.8903125}
+      scale: {x: 0.99999076, y: 0.99999744, z: 1.0000057}
+    - name: TwilightCATRArmMiddle1
+      parentName: TwilightCATRArmPalm
+      position: {x: -0.28940192, y: 0.03997314, z: 0.025115425}
+      rotation: {x: 0.008970677, y: -0.027247012, z: 0.067507036, w: 0.99730635}
+      scale: {x: 0.99999785, y: 0.999999, z: 1.0000011}
+    - name: TwilightCATRArmMiddle2
+      parentName: TwilightCATRArmMiddle1
+      position: {x: -0.138309, y: 0.0000007751465, z: 0.00000038757324}
+      rotation: {x: -0.006159268, y: -0.0009541267, z: 0.021803236, w: 0.99974287}
+      scale: {x: 0.99999547, y: 0.9999987, z: 1.0000026}
+    - name: TwilightCATRArmMiddle3
+      parentName: TwilightCATRArmMiddle2
+      position: {x: -0.12302582, y: 0, z: 0.00000058135987}
+      rotation: {x: -0.0028724093, y: -0.015278389, z: 0.3796393, w: 0.925004}
+      scale: {x: 0.99999106, y: 0.9999971, z: 1.0000051}
+    - name: TwilightCATRArmRing1
+      parentName: TwilightCATRArmPalm
+      position: {x: -0.2966224, y: 0.044197302, z: -0.033101566}
+      rotation: {x: -0.00045979006, y: -0.036575645, z: 0.067052014, w: 0.9970788}
+      scale: {x: 0.9999978, y: 0.99999905, z: 1.0000011}
+    - name: TwilightCATRArmRing2
+      parentName: TwilightCATRArmRing1
+      position: {x: -0.13555813, y: 0, z: 0.00000038757324}
+      rotation: {x: -0.001906759, y: -0.0006591601, z: 0.024488684, w: 0.9996981}
+      scale: {x: 0.99999535, y: 0.9999984, z: 1.0000023}
+    - name: TwilightCATRArmRing3
+      parentName: TwilightCATRArmRing2
+      position: {x: -0.08939144, y: 0.00000038757324, z: 0.00000038757324}
+      rotation: {x: 0.012680608, y: -0.001780688, z: 0.45083237, w: 0.8925168}
+      scale: {x: 0.99999064, y: 0.9999973, z: 1.0000049}
+    - name: TwilightCATRArmPinky1
+      parentName: TwilightCATRArmPalm
+      position: {x: -0.29683208, y: 0.046508014, z: -0.08587092}
+      rotation: {x: -0.0032130473, y: -0.038221415, z: 0.0666596, w: 0.9970383}
+      scale: {x: 0.99999785, y: 0.9999989, z: 1.0000013}
+    - name: TwilightCATRArmPinky2
+      parentName: TwilightCATRArmPinky1
+      position: {x: -0.106290795, y: 0.00000038757324, z: 0.00000058135987}
+      rotation: {x: -0.0034673256, y: -0.0016818184, z: 0.025909627, w: 0.9996569}
+      scale: {x: 0.9999952, y: 0.99999815, z: 1.0000026}
+    - name: TwilightCATRArmPinky3
+      parentName: TwilightCATRArmPinky2
+      position: {x: -0.0664004, y: -0.00000038757324, z: 0.00000058135987}
+      rotation: {x: 0.020848347, y: 0.017964358, z: 0.4338518, w: 0.90056384}
+      scale: {x: 0.9999902, y: 0.9999966, z: 1.0000051}
+    - name: TwilightCATLArmCollarbone
+      parentName: TwilightCATChees
+      position: {x: -0, y: -0.000000072669984, z: -0.12097063}
+      rotation: {x: -0.06388794, y: -0.7042147, z: 0.06388794, w: 0.7042147}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999976}
+    - name: TwilightCATLArm1
+      parentName: TwilightCATLArmCollarbone
+      position: {x: -0.3182852, y: -0.00000006055832, z: 0.00000038757324}
+      rotation: {x: -0.023927504, y: 0.089833975, z: -0.05049421, w: 0.9943881}
+      scale: {x: 0.99999946, y: 0.99999964, z: 0.9999996}
+    - name: TwilightCATLArm21
+      parentName: TwilightCATLArm1
+      position: {x: -0.89447445, y: -0.00000038757324, z: 0}
+      rotation: {x: 0.074101195, y: -0.1732079, z: -0.4009809, w: 0.89650565}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: TwilightCATLArm22
+      parentName: TwilightCATLArm21
+      position: {x: -0.24226584, y: 0.00000019378662, z: -0.00000019378662}
+      rotation: {x: 0.03105744, y: 0.16815343, z: 0.28233266, w: 0.9439535}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999998}
+    - name: TwilightCATLArm23
+      parentName: TwilightCATLArm22
+      position: {x: -0.24226506, y: 0.00000019378662, z: 0}
+      rotation: {x: 0.060994167, y: -0.000000013964536, z: 0.000000015782303, w: 0.9981381}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999998}
+    - name: TwilightCATLArmPalm
+      parentName: TwilightCATLArm23
+      position: {x: -0.24226467, y: 0.00000019378662, z: 0}
+      rotation: {x: 0.70349365, y: -0.22779553, z: 0.030961473, w: 0.67249334}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.99999964}
+    - name: TwilightCATLArmThumb1
+      parentName: TwilightCATLArmPalm
+      position: {x: -0.1133613, y: 0.015530544, z: -0.06264017}
+      rotation: {x: -0.12686253, y: -0.40114093, z: 0.057355676, w: 0.9053741}
+      scale: {x: 1.0000052, y: 0.9999965, z: 0.9999991}
+    - name: TwilightCATLArmThumb2
+      parentName: TwilightCATLArmThumb1
+      position: {x: -0.101438284, y: -0.00000092048646, z: -0.000001550293}
+      rotation: {x: 0.022598054, y: 0.003579972, z: 0.027183192, w: 0.99936855}
+      scale: {x: 1.0000154, y: 0.9999878, z: 0.9999982}
+    - name: TwilightCATLArmThumb3
+      parentName: TwilightCATLArmThumb2
+      position: {x: -0.09886926, y: -0.0000008720398, z: -0.000001550293}
+      rotation: {x: 0.115385, y: 0.19762167, z: 0.38714305, w: 0.89316976}
+      scale: {x: 1.0000452, y: 0.99996555, z: 0.9999918}
+    - name: TwilightCATLArmIndex1
+      parentName: TwilightCATLArmPalm
+      position: {x: -0.28947535, y: 0.030207314, z: -0.07769603}
+      rotation: {x: -0.0023501206, y: -0.043880332, z: 0.0015032284, w: 0.99903286}
+      scale: {x: 1.0000002, y: 1.0000008, z: 0.99999964}
+    - name: TwilightCATLArmIndex2
+      parentName: TwilightCATLArmIndex1
+      position: {x: -0.13717245, y: -0.0000009689331, z: -0.0000007751465}
+      rotation: {x: 0.007903594, y: 0.0016676587, z: 0.027218457, w: 0.99959695}
+      scale: {x: 1.0000006, y: 1.000002, z: 0.9999992}
+    - name: TwilightCATLArmIndex3
+      parentName: TwilightCATLArmIndex2
+      position: {x: -0.09701869, y: -0.0000013565063, z: -0.0000007751465}
+      rotation: {x: 0.026042046, y: 0.050460454, z: 0.41647202, w: 0.9073735}
+      scale: {x: 1.0000012, y: 1.000004, z: 0.99999833}
+    - name: TwilightCATLArmMiddle1
+      parentName: TwilightCATLArmPalm
+      position: {x: -0.28940016, y: 0.03997159, z: -0.025115715}
+      rotation: {x: 0.007860567, y: -0.03495027, z: 0.002481206, w: 0.9993551}
+      scale: {x: 1.0000004, y: 1.0000007, z: 0.9999994}
+    - name: TwilightCATLArmMiddle2
+      parentName: TwilightCATLArmMiddle1
+      position: {x: -0.13830823, y: -0.0000011627197, z: -0.00000058135987}
+      rotation: {x: 0.0052637034, y: 0.001146137, z: 0.023758147, w: 0.9997032}
+      scale: {x: 1.000001, y: 1.0000018, z: 0.999999}
+    - name: TwilightCATLArmMiddle3
+      parentName: TwilightCATLArmMiddle2
+      position: {x: -0.12302713, y: -0.000001550293, z: -0.00000038757324}
+      rotation: {x: 0.002270013, y: 0.01537965, z: 0.3430087, w: 0.9392036}
+      scale: {x: 1.0000018, y: 1.0000033, z: 0.999998}
+    - name: TwilightCATLArmRing1
+      parentName: TwilightCATLArmPalm
+      position: {x: -0.29662102, y: 0.04419643, z: 0.03310147}
+      rotation: {x: 0.015997995, y: -0.028384263, z: 0.0008792126, w: 0.99946874}
+      scale: {x: 1.0000004, y: 1.0000008, z: 0.9999997}
+    - name: TwilightCATLArmRing2
+      parentName: TwilightCATLArmRing1
+      position: {x: -0.13555743, y: -0.0000011627197, z: -0.00000019378662}
+      rotation: {x: 0.001457502, y: 0.0007959561, z: 0.026444923, w: 0.9996489}
+      scale: {x: 1.0000005, y: 1.0000018, z: 0.99999934}
+    - name: TwilightCATLArmRing3
+      parentName: TwilightCATLArmRing2
+      position: {x: -0.08939173, y: -0.0000011627197, z: -0.00000019378662}
+      rotation: {x: -0.012740923, y: 0.001281169, z: 0.41542292, w: 0.90953827}
+      scale: {x: 1.0000007, y: 1.0000036, z: 0.99999857}
+    - name: TwilightCATLArmPinky1
+      parentName: TwilightCATLArmPalm
+      position: {x: -0.29683033, y: 0.046506077, z: 0.08587092}
+      rotation: {x: 0.019136809, y: -0.027593946, z: 0.00043466673, w: 0.999436}
+      scale: {x: 1.0000006, y: 1.0000008, z: 0.9999996}
+    - name: TwilightCATLArmPinky2
+      parentName: TwilightCATLArmPinky1
+      position: {x: -0.106290214, y: -0.0000013565063, z: -0.00000038757324}
+      rotation: {x: 0.0024899412, y: 0.0020156284, z: 0.027495598, w: 0.9996168}
+      scale: {x: 1.000001, y: 1.0000015, z: 0.99999917}
+    - name: TwilightCATLArmPinky3
+      parentName: TwilightCATLArmPinky2
+      position: {x: -0.066401176, y: -0.0000019378663, z: -0.00000038757324}
+      rotation: {x: -0.020126676, y: -0.018769726, z: 0.3981394, w: 0.9169121}
+      scale: {x: 1.0000019, y: 1.0000031, z: 0.9999985}
+    - name: TwilightCATNeck
+      parentName: TwilightCATChees
+      position: {x: -0.00000038757324, y: -0.00000008478165, z: 0.000000012111664}
+      rotation: {x: 0.043610793, y: -0.000802217, z: 0.010559917, w: 0.9989925}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999998}
+    - name: TwilightCATHead
+      parentName: TwilightCATNeck
+      position: {x: -0.4286874, y: -0.000000072669984, z: 0.000000006055832}
+      rotation: {x: 0.04360431, y: -0.0012859851, z: 0.016089551, w: 0.9989185}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.9999999}
+    - name: TwilightCATHair01
+      parentName: TwilightCATHead
+      position: {x: -0.7083161, y: -0.6584897, z: 0.000000112032886}
+      rotation: {x: 4.5927158e-11, y: 0.00000015085209, z: 0.99904823, w: 0.043619387}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999999}
+    - name: TwilightCATHair02
+      parentName: TwilightCATHair01
+      position: {x: -0.7258235, y: -0.00000019378662, z: 0.00000001513958}
+      rotation: {x: -9.9502875e-15, y: -0.000000032909355, z: -0.2164396, w: 0.976296}
+      scale: {x: 0.9999995, y: 0.9999996, z: 0.99999976}
+    - name: TwilightCATHair03
+      parentName: TwilightCATHair02
+      position: {x: -1.0887347, y: -0.00000019378662, z: 0.00000001513958}
+      rotation: {x: 1.1974452e-11, y: -0.000000032772462, z: -0.21643956, w: 0.976296}
+      scale: {x: 0.99999905, y: 0.999999, z: 0.9999995}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
