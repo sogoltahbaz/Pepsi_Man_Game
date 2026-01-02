@@ -2,6 +2,11 @@
 using TMPro;
 using UnityEngine.SceneManagement;
 
+/*
+ * This script manages the core game state, including scoring, high score persistence, 
+ * and handling Game Over/Restart logic. It uses a static boolean to sync state 
+ * across different game systems and controls the global Time Scale.
+ */
 public class GameManager : MonoBehaviour
 {
     [Header("UI Elements")]
@@ -10,13 +15,10 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverPanel;
 
     private float score = 0;
-
-    // استفاده از متغیر Static برای هماهنگی آنی تمام اسکریپت‌ها
     public static bool isGameOver = false;
 
     void Awake()
     {
-        // حتماً در شروع بازی مقدار را ریست کن
         isGameOver = false;
         Time.timeScale = 1;
     }
@@ -26,12 +28,12 @@ public class GameManager : MonoBehaviour
         int savedHighScore = PlayerPrefs.GetInt("HighScore", 0);
         highScoreText.text = "Best: " + savedHighScore.ToString();
 
-        if (gameOverPanel != null) gameOverPanel.SetActive(false);
+        if (gameOverPanel != null)
+            gameOverPanel.SetActive(false);
     }
 
     void Update()
     {
-        // اگر باختیم، هیچ اتفاقی نیفتد (امتیاز متوقف می‌شود)
         if (isGameOver) return;
 
         score += Time.deltaTime * 10;
@@ -48,17 +50,18 @@ public class GameManager : MonoBehaviour
     {
         if (isGameOver) return;
 
-        isGameOver = true; // توقف فوری
-        Time.timeScale = 0; // توقف فیزیک
+        isGameOver = true;
+        Time.timeScale = 0;
 
-        if (gameOverPanel != null) gameOverPanel.SetActive(true);
+        if (gameOverPanel != null)
+            gameOverPanel.SetActive(true);
 
         Debug.Log("Game Over! Final Score: " + Mathf.FloorToInt(score));
     }
 
     public void RestartGame()
     {
-        Debug.Log("Restart Button Clicked!"); // این خط را برای تست اضافه کن
+        Debug.Log("Restart Button Clicked!");
         Time.timeScale = 1;
         isGameOver = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
